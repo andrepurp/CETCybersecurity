@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro n1, n2, soma, subtracao, produto
+
+    escreva("Introduza o primeiro numero: ")
+    leia(n1)
+    escreva("Introduza o segundo numero: ")
+    leia(n2)
+    soma = n1 + n2
+    subtracao = n1 - n2
+    produto = n1 * n2
+    escreva("A soma é: ", soma, "\nA subtração é: ", subtracao, "\nO Produto é: ", produto)
+  }
+}
